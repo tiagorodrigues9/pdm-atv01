@@ -1,5 +1,6 @@
 import { Image } from "expo-image";
 import { View, Text, Button, Alert, ScrollView} from "react-native";
+import Card from "../components/Card";
 
 export default function Index(){
     return(
@@ -12,14 +13,10 @@ export default function Index(){
                 </Text>
                 <Button title="Clique aqui" onPress={ () => Alert.alert("Teste")}/>
 
-                <View style={{borderWidth:1, padding:16, borderRadius:8, gap:8}}>
-                    <Text style={{fontSize:32}}>
-                        Primeiro Card
-                    </Text>
-                    <Text>
-                        Texto card
-                    </Text>
-                </View>
+                <Card title="Primeiro Card" body="Corpo do Card" href={"/buttons"}></Card>
+                <Card title="Flatlist Fetch" body="Flatlist Exemplo" href={"/flatlist-fetch"}></Card>
+                <Card title="Flashlist" body="Flatlist Exemplo" href={"/flashlist"}></Card>
+                <Card title="inputs" body="Inputs" href={"/inputs"}></Card>
             </View>
         </ScrollView>
     )
