@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "tiagouou",
-    "slug": "tiagouou",
+    "name": "at_t1_tiagodelararodrigues",
+    "slug": "at_t1_tiagodelararodrigues",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tiagouou",
+    "scheme": "att1tiagodelararodrigues",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
